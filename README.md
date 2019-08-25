@@ -13,3 +13,13 @@ I highly recommend reading the book.
  - Use factory method and not constructors: [Pizza.java](src/org/gunnm/java/effective/Pizza.java)
  - Use the Builder pattern to build object; [PizzaBuilder.java](src/org/gunnm/java/effective/PizzaBuilder.java)
  - How to define a Singleton: [Singleton.java](src/org/gunnm/java/effective/Singleton.java)
+ - Class with Utils/static member: [NonInstantiableUtilsClass](src/org/gunnm/java/effective/NonInstantiableUtilsClass.java)
+ - Try with resources: [TryWithResources](src/org/gunnm/java/effective/TryWithResources.java)
+ - Equals method: [PersonEquality](src/org/gunnm/java/effective/PersonEquality.java)
+ - Hashcode override method: good way in [PersonHashCodeGood](src/org/gunnm/java/effective/PersonHashCodeGood.java) and bad way in [PersonHashCodeBad](src/org/gunnm/java/effective/PersonHashCodeBad.java)
+ - Clone method: [PersonEquality](src/org/gunnm/java/effective/PersonEquality.java)
+ 
+ ## Simple Good Practices
+ 
+  - Do not use finalizers or cleaner
+  - Do not rebuild String and use code such as `String s1 = "foobar"; String s2 =  new String(s);`
