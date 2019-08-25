@@ -19,6 +19,8 @@ I highly recommend reading the book.
  - Hashcode override method: good way in [PersonHashCodeGood](src/org/gunnm/java/effective/PersonHashCodeGood.java) and bad way in [PersonHashCodeBad](src/org/gunnm/java/effective/PersonHashCodeBad.java)
  - Clone method: [PersonEquality](src/org/gunnm/java/effective/PersonEquality.java)
  - Use of Generics: [GenericLinkedList](src/org/gunnm/java/effective/GenericLinkedList.java)
+ - Use of Enumeration: [GenericLinkedList](src/org/gunnm/java/effective/CheeseEnum.java)
+ 
  
  ## Simple Good Practices
  
