@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Class to show how equals and clone should be overriden.
  */
-public class PersonEquality implements Cloneable {
+public class PersonEquality implements Cloneable, Comparable<PersonEquality> {
     String name;
     int age;
 
@@ -35,4 +35,14 @@ public class PersonEquality implements Cloneable {
         return new PersonEquality(this.name, this.age);
     }
 
+    @Override
+    public int compareTo(PersonEquality other) {
+        int ageDifference = Integer.compare(this.age, other.age);
+
+        if (ageDifference != 0) {
+            return ageDifference;
+        }
+        return this.name.compareTo(other.name);
+
+    }
 }

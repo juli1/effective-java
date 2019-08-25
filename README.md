@@ -18,8 +18,12 @@ I highly recommend reading the book.
  - Equals method: [PersonEquality](src/org/gunnm/java/effective/PersonEquality.java)
  - Hashcode override method: good way in [PersonHashCodeGood](src/org/gunnm/java/effective/PersonHashCodeGood.java) and bad way in [PersonHashCodeBad](src/org/gunnm/java/effective/PersonHashCodeBad.java)
  - Clone method: [PersonEquality](src/org/gunnm/java/effective/PersonEquality.java)
+ - Use of Generics: [GenericLinkedList](src/org/gunnm/java/effective/GenericLinkedList.java)
  
  ## Simple Good Practices
  
   - Do not use finalizers or cleaner
   - Do not rebuild String and use code such as `String s1 = "foobar"; String s2 =  new String(s);`
+  - Favor composition over inheritance
+  - Use immutable values as much as you can
+  - Avoid abstract classes and use interfaces: at least, you can use multiple interfaces
